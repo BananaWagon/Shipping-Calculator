@@ -1,0 +1,32 @@
+//Author: Nestor Monteagudo
+//Student ID: 649049
+//Date: March 6, 2023
+//Goal / Purpose of program: To calculate shipping cost using user inputted weight and cost zones.
+
+Test Plan for ShippingCalculator Program
+
+    Verify that the program can clear previous results and hide the price capped image and label when the "calculate" button is clicked.
+
+    Verify that the program throws an error message when the input for package weight is less than 1.
+
+    Verify that the program throws an error message when none of the radio buttons are selected for shipping zone.
+
+    Verify that the program calculates the correct weight cost based on the input package weight.
+
+    Verify that the program calculates the correct zone cost based on the input shipping zone.
+
+    Verify that the program calculates the correct total shipping cost by adding the weight cost and zone cost.
+
+    Verify that the program caps the total shipping cost to the price cap of $100 if it exceeds $100, and displays the price capped image and label.
+
+    Verify that the program calculates the correct pound rate by dividing the total shipping cost by the package weight.
+
+    Verify that the program displays the correct output for weight cost, zone cost, total shipping cost, and pound rate.
+
+    Verify that the program throws an error message when the input for package weight is not a whole number.
+
+    Verify that the program handles all possible combinations of valid input values for package weight and shipping zone.
+	
+	Verify that the program	cannot be resized.
+	
+	Verify that the program has the correct name and icon.
